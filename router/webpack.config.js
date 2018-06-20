@@ -46,7 +46,7 @@ module.exports = {
   plugins: [
  
     new VueLoaderPlugin(),
-    new ExtractTextPlugin("main.js"),
+    new ExtractTextPlugin("main.css"),
   ],
    devServer:{                                     //配置  
       contentBase: "./",   
